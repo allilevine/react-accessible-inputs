@@ -13,8 +13,5 @@ import Button from './Button';
 // rendered in the rendering area
 storiesOf('Button')
 	.add('with text', () => (
-		<Button onClick={action('clicked')}>Hello Button</Button>
+		<Button><input type="submit" value="Submit Potato" /></Button>
 	))
-	.add('with emoji', () => (
-		<Button onClick={action('clicked')}>🚿 🚿 🐈 🐈</Button>
-	));

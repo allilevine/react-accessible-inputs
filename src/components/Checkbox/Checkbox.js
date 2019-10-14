@@ -11,8 +11,8 @@ const CheckboxWrapper = styled.div`
 			content: "";
 			cursor: pointer;
 			display: block;
-			height: 16px;
-			width: 16px;
+			height: 20px;
+			width: 20px;
 			margin-right: 10px;
 		}
 

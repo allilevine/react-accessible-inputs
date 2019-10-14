@@ -6,13 +6,27 @@ import styled from 'styled-components';
 
 // Style components take CSS in a template string. Even Sass functions with work!
 // Each element is a property of styled, like h3, p, div, etc...
-const ButtonWrapper = styled.button`
-	border-radius: 8px;
-	color: #fff;
-	background: mediumvioletred;
-	padding: 8px 15px;
-	border: none;
-	outline: none;
+const ButtonWrapper = styled.div`
+	input {
+		border-radius: 8px;
+		color: white;
+		background: darkslategray;
+		border: 1px solid darkslategray;
+		cursor: pointer;
+		font-size: 1em;
+		padding: 8px 15px;
+		outline: none;
+		transition: all 0.2s ease;
+
+		&:focus {
+      box-shadow: 0 0 10px dodgerblue;
+    }
+
+		&:hover {
+			background: white;
+			color: darkslategray;
+		}
+	}
 `;
 
 // Components are functions, and they must start with a capital letter
