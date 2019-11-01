@@ -1,9 +1,4 @@
 # React Accessible Inputs
+A React component library of accessible, customizable inputs like radio buttons, checkboxes, drop-downs, and text fields. Use them to fully customize your next form while keeping it accessible to all. 
 
-## Development and Storybook
-You can easily develop and interact with your components by using Storybook. To run the local server, simply run:
-
-```
-$ npm i
-$ npm run storybook
-```
+Access the component library here: (https://react-accessible-inputs.netlify.com/)[https://react-accessible-inputs.netlify.com/]
