@@ -24,8 +24,10 @@ storiesOf('RadioButton')
 				<input id="radio-button-other" name="text-group" type="radio" />
 				<label htmlFor="radio-button-other">Other potato</label>
 			</RadioButton>
+			<br />
 			<TextField>
-				<input id="other" name="other" placeholder="Tell us more" type="text" />
+				<label htmlFor="other">Tell us more</label>
+				<input id="other" name="other" type="text" />
 			</TextField>
 		</>
 	))
